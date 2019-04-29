@@ -7,7 +7,6 @@ export default class TextInput extends Component{
         super(props)
         this.state={inputText:'Soham'}
     }
-
     handleChange(event){
         this.setState({
             inputText:event.target.value
@@ -22,7 +21,9 @@ export default class TextInput extends Component{
                 <div>
                     Enter Name
                 </div>
-                <input type="text" value={this.state.inputText} onChange={this.handleChange.bind(this)}></input>
+                <input type="text" value={this.state.inputText} 
+                    onChange={this.handleChange.bind(this)}>
+                    </input>
               {this.state.inputText ? console.log("valid"):console.log("No data")}
               {
                   this.state.inputText

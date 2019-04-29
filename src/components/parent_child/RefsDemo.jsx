@@ -1,4 +1,5 @@
 import React,{Fragment} from 'react'
+import AddColorForm from './AddColorForm';
 
 export default class RefsDemo extends React.Component{
     constructor(props){
@@ -21,18 +22,17 @@ export default class RefsDemo extends React.Component{
         alert(this.refs.myInput.value)
         this.refs.myInput.focus()
     }
-
     render(){
         return(
             <div>
                 Name:<input value={this.state.data}
                 onChange={this.updateState}
                 ref="myInput" id="txt1"></input>
-            
             <button onClick={this.clearInput}>
                 CLEAR
             </button>
             <h4>{this.state.data}</h4>
+            <AddColorForm />
             </div>
         )
     }

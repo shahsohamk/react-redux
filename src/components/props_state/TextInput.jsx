@@ -23,7 +23,6 @@ export default class TextInput extends Component{
                     Enter Name
                 </div>
                 <input type="text" value={this.state.inputText} onChange={this.handleChange.bind(this)}></input>
-              
               {this.state.inputText ? console.log("valid"):console.log("No data")}
               {
                   this.state.inputText

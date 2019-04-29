@@ -15,7 +15,6 @@ function App() {
       <Header title="React + Redux Training"></Header>
       <Login portal="Verizon"></Login>
       <Dashboard></Dashboard>
-      <h1>Put your comments here</h1>
       <Footer></Footer>
     </div>
   );

@@ -23,10 +23,8 @@ export default class ChildParentInvoke extends React.Component {
            <h2 className='text-danger bg-success'>{this.state.data}</h2>
            <br/>
            <h2 >Child Component</h2> <br/>
-            
            <Content myDataProp = {this.state.data} 
                updateStateProp = {this.updateState}></Content>         
-            
             <ContentSibling data={this.state.data}></ContentSibling>
          </div>
       );

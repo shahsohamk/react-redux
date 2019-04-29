@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import StatefulApp from './props_state/StatefulApp';
+import Grid from './props_state/Grid'
+import TextInput from './props_state/TextInput';
 
 //stateful functional component / class component / intelligent components
 export default class Dashboard extends Component{
@@ -9,7 +12,9 @@ export default class Dashboard extends Component{
     render(){
         return(
             <div>
-                <h3>Put your Business Components tree here</h3>
+                <StatefulApp/>
+                <Grid/>
+                <TextInput></TextInput>
             </div>
         )
     }

@@ -81,8 +81,7 @@ class Employee extends React.Component{
                         (context)=>(
                             <React.Fragment>
                                 <h3 className="bg-secondary">Displaying Employee details</h3>
-                                <p>Hello!{context.state.name}</p>
-                                
+                                <p>Hello!{context.state.name}</p>  
                             </React.Fragment>
                         )
                     }

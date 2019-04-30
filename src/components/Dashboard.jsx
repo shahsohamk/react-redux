@@ -5,6 +5,7 @@ import TextInput from './props_state/TextInput';
 import ChildParentInvoke from './parent_child/ChildParentInvoke';
 import RefsDemo from './parent_child/RefsDemo';
 import Context from './contextApi/Context'
+import CompLifeCycle from './lifecycle/CompLifeCycle';
 
 //stateful functional component / class component / intelligent components
 export default class Dashboard extends Component{
@@ -21,6 +22,7 @@ export default class Dashboard extends Component{
                 <ChildParentInvoke></ChildParentInvoke>
                 <RefsDemo></RefsDemo>
                 <Context></Context>
+                <CompLifeCycle></CompLifeCycle>
             </div>
         )
     }

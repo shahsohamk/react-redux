@@ -7,7 +7,6 @@ class WeatherComponent extends React.Component{
                 pictures:[]
         }
     }
-
     componentDidMount(){
         console.log("inside componentDidMount method")
         //REST Call
@@ -31,7 +30,6 @@ class WeatherComponent extends React.Component{
     changeName(){
         this.setState({weather:'Rainy'})
     }
-
     render(){
         console.log("inside render method")
         return(

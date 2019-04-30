@@ -7,6 +7,7 @@ import RefsDemo from './parent_child/RefsDemo';
 import Context from './contextApi/Context'
 import CompLifeCycle from './lifecycle/CompLifeCycle';
 import WeatherComponent from './lifecycle/WeatherComponent'
+import FormApp from './formvalidation/FormApp'
 
 //stateful functional component / class component / intelligent components
 export default class Dashboard extends Component{
@@ -25,6 +26,7 @@ export default class Dashboard extends Component{
                 <Context></Context>
                 <CompLifeCycle/>
                 <WeatherComponent/>
+                <FormApp/>
             </div>
         )
     }

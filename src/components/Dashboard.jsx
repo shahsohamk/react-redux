@@ -4,6 +4,7 @@ import Grid from './props_state/Grid'
 import TextInput from './props_state/TextInput';
 import ChildParentInvoke from './parent_child/ChildParentInvoke';
 import RefsDemo from './parent_child/RefsDemo';
+import Context from './contextApi/Context'
 
 //stateful functional component / class component / intelligent components
 export default class Dashboard extends Component{
@@ -19,6 +20,7 @@ export default class Dashboard extends Component{
                 <TextInput/>
                 <ChildParentInvoke></ChildParentInvoke>
                 <RefsDemo></RefsDemo>
+                <Context></Context>
             </div>
         )
     }

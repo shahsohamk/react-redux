@@ -9,6 +9,7 @@ import CompLifeCycle from './lifecycle/CompLifeCycle';
 import WeatherComponent from './lifecycle/WeatherComponent'
 import FormApp from './formvalidation/FormApp'
 import MyHOC from '../HOC/HOC'
+import ButtonOne from './ButtonOne'
 
 //stateful functional component / class component / intelligent components
 export default class Dashboard extends Component{
@@ -29,6 +30,8 @@ export default class Dashboard extends Component{
                 <WeatherComponent/>
                 <FormApp/>
                 <MyHOC/>
+                <ButtonOne></ButtonOne>
+                <ButtonOne disable/>
             </div>
         )
     }
